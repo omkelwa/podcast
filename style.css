@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main-container{
+    height:100vh;
+    background:black;
+    padding: 25px 10px;
+}
+
+.container{ 
+    background-color: white;
+    height:80vh;
+    width:95%;
+    margin:auto;
+    padding-top:20px;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    padding: 0px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    width:350px;
+}
+
+nav ul li{
+    width:150px;
+}
+
+/* hero section starts */
+
+.hero-section{
+    height:40vh;
+    display:flex;
+    padding-top:30px;
+}
+
+.motivation{
+    height:100%;
+    width:50%;
+    padding: 10px 0px 0px 60px;
+}
+.motivation hr{
+    height:5px;
+    width:370px;
+}
+
+.motivation h2{
+    font-size:60px;
+}
+.motivation span{
+    padding-top:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:70%;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size:14px;
+}
+
+.writer{
+    padding-top:px;
+    height:100%;
+    width:50%;
+    display:flex;
+}
+.writer img{
+    width:270px;
+    height: 300px;
+}
+.writer div{
+    width:50%;
+    font-size:20px;
+    padding:  70px;
+}
+
+.writer div p{
+    margin: 10px 0px;
+}
+
+/* footer section starts */
+
+footer{
+    margin-top:70px;
+    height:200px;
+    display:flex;
+    background:white;
+}
+
+.portfolio{
+    background:rgb(216,88,65);
+    width:50%;
+    height:100%;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:30px;
+}
+
+.portfolio p{
+    font-size:12px;
+}
+.portfolio h3{
+    font-size:20px;
+}
+.portfolio img:first-child{
+    
+    border: 12px double whitesmoke ;
+    height:150px;
+    width:150px;
+    border-radius:300px;
+}
+
+
+.portfolio img:last-child{
+    height:40px;
+    width:150px;
+    background-color:white;
+}
+.register{
+    width:25%;
+    height:100%;
+    padding-top:30px;
+    text-align: center;
+}
+
+.register p{
+    font-size:14px;
+}
+
+.speakers {
+    background:rgb(28,73,49);
+    width:25%;
+    height:100%;
+    color:white;
+    padding:30px 20px;
+    border: 20px inset rgb(28,73,49);
+}
+
+.speakers h3{
+    font-size:30px;
+}
